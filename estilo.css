@@ -1,10 +1,13 @@
+
+/*.APAGAR AQUI. Border Radius e Box Sizing 
+
 #caixa{
 	width: 400px;
 	height: 400px;
 	background-image: url(../Imagens/perfil.jpg);
 	padding: 50px;
-	margin: 10px;
-	-webkit-box-sizing: border-box; /* Comando como "Webkit e Moz São para passar de navegador para navegador sempre importante criar como no exemplo a baixo"*/
+	margin: 10px; 				/* Comando como "Webkit e Moz São para passar de navegador para navegador sempre importante criar como no exemplo a baixo"*/ /*.APAGAR AQUI.
+	-webkit-box-sizing: border-box;  
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-border-radius: 150px;
@@ -20,9 +23,23 @@
 	margin: 10px;
 	-webkit-border-radius: 20px 90px ;
 	-moz-border-radius: 20px 90px ;
-	border-radius: 20px 90px;*/
+	border-radius: 20px 90px;
 }
 
 h1, p {
 	color:#ffffff;
-}
+} .APAGAR AQUI. */ 
+ 
+ /* Degradês & Transparências */ 
+
+/*APAGAR AQUI. #caixa{
+ 	width: 400px;
+	height: 300px; APAGAR AQUI.*/
+	/*APAGAR AQUI.background: url(../Imagens/camera.png); APAGAR AQUI.*/      /* Usa o Caixa de baixo para simular o efeito de tranparencia*/
+	/*APAGAR AQUI.background: linear-gradient(to right, red, blueviolet , green); APAGAR AQUI.*/  /* Efeito dregade padrão */
+   /*APAGAR AQUI.background: radial-gradient(green, red, blue); APAGAR AQUI.*/ /*Efeito degrade de dentro para fora*/
+ }
+/*APAGAR AQUI.
+ #caixa h1 {
+ 	/*background: rgba(255, 255, 255 , 0.8);
+ }APAGAR AQUI.*/
