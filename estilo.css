@@ -4,7 +4,7 @@
 	background-image: url(../Imagens/perfil.jpg);
 	padding: 50px;
 	margin: 10px;
-	-webkit-box-sizing: border-box;
+	-webkit-box-sizing: border-box; /* Comando como "Webkit e Moz São para passar de navegador para navegador sempre importante criar como no exemplo a baixo"*/
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-border-radius: 150px;
