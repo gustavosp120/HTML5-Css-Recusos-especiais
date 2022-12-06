@@ -1,6 +1,6 @@
 
-/*.APAGAR AQUI. Border Radius e Box Sizing 
-
+/* Border Radius e Box Sizing */
+/*
 #caixa{
 	width: 400px;
 	height: 400px;
@@ -43,3 +43,27 @@ h1, p {
  #caixa h1 {
  	/*background: rgba(255, 255, 255 , 0.8);
  }APAGAR AQUI.*/
+
+
+
+/* Sombras */ 
+
+/* .APAGAR AQUI. #caixa {
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	margin: 20px;
+	background: #009670;
+	box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.6); /* Primeiro "20px" movimenta a horisontal o outro movimenta a vertical,
+	 valores negativos faz o efeito faz o efeito ao contrario. o ultimo 10px faz um efeito de blur */ /* .APAGAR AQUI.
+} .APAGAR AQUI. */
+
+ /*.APAGAR AQUI.  #caixa h1{
+	color: white;
+	/* text-shadow: 20px 20px #ccc; */
+	/* APAGAR AQUI. text-shadow: 20px 20px 10px rgba(0, 0, 0, 0.6);  /* Primeiro "20px" movimenta a horisontal o outro movimenta a vertical,
+	 valores negativos faz o efeito faz o efeito ao contrario. o ultimo 10px faz um efeito de blur */ /*.APAGAR AQUI.
+}
+.APAGAR AQUI.*/
+
+
