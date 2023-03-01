@@ -35,15 +35,24 @@
 			margin: 10px;
 			/*Define proporção de espaço ocupado por um item*/
 			flex-grow: 0;
-		}
 
-		/*.item1{
+			/*define a capacidade de redução de tamanho do item */
+			flex-shrink: 1;
+
+			/*Indica o tamanho inicial do flex item antes da distribuição do espaço restante */
+
+			flex-basis: auto;
+		}
+		/*
+		.item1{
 			flex-grow: 1;
+			flex-shrink: 1;
 		}
 		.item2{
 			flex-grow: 2;
-		}*/
-
+			flex-shrink: 1;
+		}
+		*/
 		/*.ordem1{
 			order: 1;
 		}
@@ -67,7 +76,7 @@
 	 	<div id="Conteudo">
 			<div class="item item1">01</div>
 			<div class="item">02</div>
-			<div class="item">03</div>
+			<div class="item">03</div>			
 			<div class="item item2">04</div>
 	</div>
 
